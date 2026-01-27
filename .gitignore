@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files - NEVER commit real credentials
+# Keep .env.example as the template (safe to commit)
+.env
+.env.local
+.env.production
+.env.development
+.env*.local
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+node_modules
+
+# Soulprint exports (sensitive data)
+all_soulprints.txt
+full_soulprints_export.json
+soulprints_export.csv
+*_soulprint.txt
+
+# Log files and data exports
+logs_result*.json
+logs_result*.csv
+lint_output.txt
+aws-error.log
+*.log
+
+# Claude Code temp files
+tmpclaude-*-cwd
+tmpclaude-*.cwd
+
+# Windows artifacts
+nul
+
+.vercel
