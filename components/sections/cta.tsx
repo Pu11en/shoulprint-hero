@@ -14,7 +14,7 @@ export function CTA() {
               Join thousands of others who have already started their journey.
             </p>
           </div>
-          <Link href="https://app.soulprintengine.ai/signup">
+          <Link href="https://www.soulprintengine.ai/signup">
             <Button variant="secondary" size="lg">
               Get Started Now
             </Button>
