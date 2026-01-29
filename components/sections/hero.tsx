@@ -43,17 +43,17 @@ export function Hero() {
 
                 {/* Content & CTA Container */}
                 <div className="relative flex flex-1 flex-col z-10">
-                    {/* Top Spacer */}
-                    <div className="flex-[0.5]" />
+                    {/* Top Spacer - increased for better vertical centering */}
+                    <div className="flex-[1.2]" />
 
                     {/* Headline and Subheading */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="flex flex-col items-center text-center space-y-5 px-6"
+                        className="flex flex-col items-center text-center space-y-5 px-4"
                     >
-                        <h1 className="text-[2.75rem] xs:text-[3.25rem] sm:text-[4.5rem] font-koulen uppercase tracking-tight leading-[0.85] text-white drop-shadow-2xl">
+                        <h1 className="text-[3.5rem] xs:text-[4rem] sm:text-[5.5rem] font-koulen uppercase tracking-tight leading-[0.82] text-white drop-shadow-2xl">
                             YOUR AI
                             <br />
                             SHOULD KNOW
