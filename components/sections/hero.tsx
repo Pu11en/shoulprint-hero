@@ -53,7 +53,7 @@ export function Hero() {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="flex flex-col items-center text-center space-y-5 px-4"
                     >
-                        <h1 className="text-[3.5rem] xs:text-[4rem] sm:text-[5.5rem] font-koulen uppercase tracking-tight leading-[0.82] text-white drop-shadow-2xl">
+                        <h1 className="text-[3.75rem] xs:text-[4.25rem] sm:text-[5.75rem] font-koulen uppercase tracking-tight leading-[0.82] text-white drop-shadow-2xl">
                             YOUR AI
                             <br />
                             SHOULD KNOW
